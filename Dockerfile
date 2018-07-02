@@ -6,5 +6,5 @@ RUN apk add --update \
       ca-certificates \
       jq
 
-ADD assetsfly/ /usr/bin/fly
+ADD assets/fly /usr/bin/fly
 RUN chmod +x /usr/bin/fly
